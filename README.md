@@ -1,5 +1,5 @@
 # bga-arknova-userstyle
-Userstyle/CSS for Ark Nova on BGA displaying 2 player areas next to each other
+Userstyle/CSS for Ark Nova on boardgamearena.com (BGA) displaying 2 player areas next to each other
 
 ## Prerequisites
 <a href="https://github.com/openstyles/stylus#readme">Stylus</a> or some other way to apply a .user.styl or css to websites.
