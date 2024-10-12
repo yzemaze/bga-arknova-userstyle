@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           BGA Ark Nova widescreen
 @description    Display 2 player areas next to each other, hide action cards below zoo maps etc.
-@version        0.2
+@version        0.2.1
 @author         yzemaze
 @namespace      github.com/yzemaze/
 @homepageURL    https://github.com/yzemaze/bga-arknova-userstyle
@@ -33,6 +33,8 @@ Works best with floating collapsible container and rather small card size in han
 		--arkNovaLeftColumnScale 0.63
 		/*--arkNovaAssociationBoardScale 0.53*/
 		--yzScale 1.3
+		&#leftright_page_wrapper
+			display flex !important // counter BGA replay bug
 
 		#arknova-main-container
 			grid-template-columns 35% 15% 35% 15% !important
